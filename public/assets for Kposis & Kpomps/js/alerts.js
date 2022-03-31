@@ -1,0 +1,3 @@
+function peringatan1(){
+  
+}

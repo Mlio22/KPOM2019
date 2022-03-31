@@ -1,0 +1,58 @@
+#kontainer {
+    display: block;
+    background-color: #00b0ff;
+}
+
+#loginBox {
+    width: 90%;
+    height: 100%;
+    background-color: #00b0ff;
+    margin-top: 200px;
+    opacity: 0.80;
+    transition-duration: 1000ms;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+    opacity: 1;
+}
+
+input {
+    margin: 2px;
+    background-color: #282828;
+    border: solid #282828 1px;
+    padding: 10px;
+    color: white;
+    cursor: default;
+    transition-property: all;
+    opacity: 1;
+}
+
+input:hover {
+    background-color: #403c3c;
+    transition-duration: 500ms;
+    
+}
+
+#submit {
+    background-color: #263238;
+    padding: 10px;
+    width : 100px;
+    opacity: 1;
+    color: #00b0ff;
+    
+}
+
+input#submit:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: black;
+    cursor: default;
+}
+
+a:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,191 @@
+body{
+  background-image:url("../../assets/img/desain KPOM.png");
+  color:white;
+  cursor: default;
+  }
+
+  li{
+  text-decoration-style:none;
+  text-decoration:none;
+  }
+
+  ul{
+  list-style-type:none;
+  padding:0;
+  }
+
+/* Isi */
+  /* Nav Bar */
+    .navbar-brand.bg-info.navbar-link{
+    margin-left:10px;
+    margin-right: auto;
+    }
+
+  #kontainer{
+    margin:20px;
+    margin-top:60px;
+  }
+
+  /* Bagian Tulisan KPOM */ 
+
+    @media (max-width:767px) {
+    #TempatTulisan{
+      width:100%;
+      }
+    }
+
+      #TulisanKpom{
+      margin-top:0px;
+      margin-bottom:2px;
+      font-family:brush script MT;
+    }
+
+    #Tulisan{
+    font-family:times new roman;
+    }
+
+  /* Bagian Logo KPOM */
+
+    #LogoKemenag{
+    margin-left:900px;
+    }
+
+    #LogoKemenag{
+      max-height:70px;
+    }
+
+    @media (max-width:1199px) {
+      #LogoKemenag{
+        margin-left:200px;
+      }
+    }
+
+    @media (min-width:1200px) {
+    #LogoKemenag{
+      margin-left:50%;
+      }
+    }
+
+    #LogoIcj{
+      max-height:70px;
+    }
+    
+    @media (min-width:1200px) {
+      #LogoIcj{
+        margin-left:20px;
+      }
+    }
+
+    #LogoBn{
+      max-height:70px;
+    } 
+
+    @media (min-width:1000px) {
+      #LogoBn{
+        max-height:70px;
+        margin-left:30px;
+      } 
+    }
+
+  #garis{
+    height:2px;
+    background-color:black;
+    margin-top:0px;
+  }
+
+  /* Isi Utama */
+    #konten{
+    height:100%;
+    text-align:center;
+    }
+
+    #TulisanKandidat{
+      font-family:rockwell;
+    }
+
+    #TempatFoto{
+      text-align:center;
+      margin-top:30px;
+    }
+
+    @media (min-width:1000px) {
+      #FotoPertama{
+        margin-left:90px;
+      }
+    }
+
+    .FotoTulisan{
+      background-image:url("../../assets/img/5.jpg");
+      margin:0 30px;
+      padding:85px;
+    }
+
+    @media (max-width:991px) {
+      .FotoTulisan{
+        width:95%;
+      }
+    }
+
+    @media (max-width:991px) {
+      .FotoTulisan{
+        margin:20px 0;
+      }
+    }
+
+    @media (min-width: 400px) and (max-width: 991px) {
+      .FotoTulisan{
+        width:50%;
+        margin-right:5px;
+        margin-left:25%;
+      }
+    }
+
+    #VisiMisi{
+      margin-top:30px;
+      padding:10px;
+      background-color:#999999;
+    }
+
+    #HVisi{
+      margin-top:15px;
+      font-family:rockwell;
+    }
+
+  /* Konfirmasi */
+    #Konfirmasi{
+      width:200px;
+      margin-left:42.5%;
+      background-color:rgb(76,218,76);
+      margin-top:5px;
+      font-family:Brush Script MT;
+    }
+
+    #TulisanKonfirmasi{
+      font-size:50px;
+      height:60px;
+      border:outset;
+    }
+
+      @media (max-width:991px) {
+      #Konfirmasi{
+        margin-left:39.5%;
+      }
+    }
+
+    @media (max-width:767px) {
+      #Konfirmasi{
+        margin-left:25%;
+      }
+    }
+
+  /* Footer */
+    #penutup{
+      background-color:rgb(67,52,52);
+      height:100px;
+    }
+
+    #NamaNama{
+      text-align:center;
+      color:white;
+      margin-top:20px;
+    }
